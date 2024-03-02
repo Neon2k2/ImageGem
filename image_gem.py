@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # Center the image using Streamlit layout options
     col1, col2, col3 = st.columns([1, 2, 1])  # Adjust column widths as needed
     with col1:
-        st.image('logo.png', width=img_widt)
+        st.image('logo.png', width=img_width)
         st.header('ImageGem')
 
     img = st.file_uploader('Drop an Image', type=['jpg', 'png', 'jpeg', 'gif'])
